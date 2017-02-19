@@ -1,4 +1,5 @@
 # dbinit.py - Initialize the database connectivity for logtracker
+# Author - Matt (emdecay (at) protonmail.com)
 
 import os, sqlite3
 

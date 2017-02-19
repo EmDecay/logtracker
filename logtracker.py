@@ -1,11 +1,9 @@
 # logtracker.py - Main code for the logtracker application
+# Author - Matt (emdecay (at) protonmail.com)
 
 import os, csv, time, sqlite3, dbinit, glob
 
-# os.path.exists(file_path) - returns true if the file exists, otherwise false; works for files and directories
-# os.path.isfile(file_path) - returns true of file exists, otherwise false; follows symlinks; works for files only (no directories)
-
-logdir_path = "/var/log/HOSTS"
+logdir_path = "/var/log"
 logdirs = os.listdir(logdir_path)
 prevhour = int(time.strftime('%H'))-1
 if prevhour == -1:
