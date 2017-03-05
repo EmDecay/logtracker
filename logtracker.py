@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # logtracker.py - Main code for the logtracker application
 # Author - Matt (emdecay (at) protonmail.com)
 
